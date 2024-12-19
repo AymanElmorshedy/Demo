@@ -17,10 +17,10 @@
             //Console.WriteLine(9);
             //Console.WriteLine(10);
 
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine($"{i} T");
-            }
+            //for (int i = 1; i <= 10; i++)
+            //{
+                //Console.WriteLine($"{i} T");
+            //}
 
 
             #endregion

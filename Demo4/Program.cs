@@ -127,8 +127,25 @@ namespace Demo4
             //Console.WriteLine(Meassge.GetHashCode());
             #endregion
 
-            #region StringBuilderMe
+            #region StringBuilderMethods
+            //StringBuilder Message = new StringBuilder("Welcome");
+            //Message.Append(" to route");
+            //Console.WriteLine(Message);
+            //Message.AppendLine(" Ali");
+            //Message.Append(" saleh");
+            //Console.WriteLine(Message);
 
+            //Message.Remove(0, 7);
+            //Console.WriteLine(Message);
+
+            //Message.Insert(0, "Hello");
+            //Console.WriteLine(Message);
+
+            //int age = 22;
+            //string Name = "Amir";
+            //Message.AppendFormat("Name {0}, age {1}",Name, age);
+            //Message.AppendJoin("/","21","11","89"); 
+            //Console.WriteLine(Message);
             #endregion
 
 

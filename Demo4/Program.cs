@@ -1,4 +1,6 @@
-﻿namespace Demo4
+﻿using System.Text;
+
+namespace Demo4
 {
     internal class Program
     {
@@ -115,6 +117,17 @@
             //Console.WriteLine(Message.GetHashCode());
             #endregion
             #region StringBuilder
+            //StringBuilder Meassge;
+            //Meassge = new StringBuilder("Hello");
+            //Console.WriteLine(Meassge);
+            //Console.WriteLine(Meassge.GetHashCode());
+            ////Meassge += route; invalid
+            //Meassge.Append(" root");
+            //Console.WriteLine(Meassge);
+            //Console.WriteLine(Meassge.GetHashCode());
+            #endregion
+
+            #region StringBuilderMe
 
             #endregion
 

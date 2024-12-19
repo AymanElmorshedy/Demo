@@ -68,8 +68,57 @@
             //    Flag = int.TryParse(Console.ReadLine(),out Number);
             //}
             //Console.WriteLine($"{Number} is even number");
-            
+
             #endregion
+            #region String
+            // Class => Rerference type
+            //Immutable data type [Value can not be changed]
+            //Array of character
+
+            //string Name;
+            //Name = new string("Ali");
+            //Name = "Ayman"; //Syntax sugar
+
+            //string Name01 = "Ali";
+            //string Name02 = "Ali";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Name01 hashCode : {Name01.GetHashCode()}");
+            //Console.WriteLine("********************************************");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Name02 HashCode : {Name02.GetHashCode()}");
+            //string Name01 = "Ahmed";
+            //string Name02 = "Ali";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Name01 hashCode : {Name01.GetHashCode()}");
+            //Console.WriteLine("********************************************");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Name02 HashCode : {Name02.GetHashCode()}");
+            //Name02 = Name01;
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Name01 hashCode : {Name01.GetHashCode()}");
+            //Console.WriteLine("********************************************");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Name02 HashCode : {Name02.GetHashCode()}");
+
+            //Name01 = "Mostafa";
+            //Console.WriteLine(Name01);
+            //Console.WriteLine($"Name01 hashCode : {Name01.GetHashCode()}");
+            //Console.WriteLine("********************************************");
+            //Console.WriteLine(Name02);
+            //Console.WriteLine($"Name02 HashCode : {Name02.GetHashCode()}");
+            //string Message = "Hello"; // unreachabel opject
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+            //Console.WriteLine("********************");
+            //Message += " root";
+            //Console.WriteLine(Message);
+            //Console.WriteLine(Message.GetHashCode());
+            #endregion
+            #region StringBuilder
+
+            #endregion
+
+
 
             #endregion
         }

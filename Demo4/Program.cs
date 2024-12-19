@@ -43,6 +43,33 @@
             //    Console.WriteLine(number);
             //}
             #endregion
+            #region While - Do while
+            //Console.WriteLine("Please enter an even number");
+            //int Numbner = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"{Numbner} is even number");
+
+            //int Number;
+            //bool Flag;
+            //do
+            //{
+            //Console.WriteLine("Please enter an even number");
+            ////Number = int.Parse(Console.ReadLine());
+            //Flag = int .TryParse(Console.ReadLine(), out Number);
+
+            //}while(Number % 2 == 1 || !(Flag));
+            //Console.WriteLine($"{Number} is even number"); 
+
+            // Same exambel using while loop
+            //int Number = 3;
+            //bool Flag = false;
+            //while (Number % 2 == 1 || !(Flag))
+            //{
+            //    Console.WriteLine("Please enter an even number");
+            //    Flag = int.TryParse(Console.ReadLine(),out Number);
+            //}
+            //Console.WriteLine($"{Number} is even number");
+            
+            #endregion
 
             #endregion
         }

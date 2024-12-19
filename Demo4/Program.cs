@@ -147,6 +147,31 @@ namespace Demo4
             //Message.AppendJoin("/","21","11","89"); 
             //Console.WriteLine(Message);
             #endregion
+            #region Array 1D
+            //int[] Numbers = new int[3];
+            //int[] Numbers = new int[3] { 1, 2, 3 };
+            //int[] Numbers = new int[] { 1, 2, 3 };
+            //int[] Numbers =  { 1, 2, 3 };
+            //int[] Numbers = new int[3];
+            
+            //Numbers[0] = 1;
+            //Numbers[1] = 2;
+            //Numbers[2] = 3;
+
+            //for(int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.WriteLine($"please enter a no {i+1} ");
+            //    Numbers[i] = int.Parse( Console.ReadLine() );
+            //}
+
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.WriteLine(Numbers[i]); 
+            //}
+            //Console.WriteLine(Numbers.Length);
+            //Console.WriteLine(Numbers.Rank);
+
+            #endregion
 
 
 

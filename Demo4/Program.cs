@@ -153,7 +153,7 @@ namespace Demo4
             //int[] Numbers = new int[] { 1, 2, 3 };
             //int[] Numbers =  { 1, 2, 3 };
             //int[] Numbers = new int[3];
-            
+
             //Numbers[0] = 1;
             //Numbers[1] = 2;
             //Numbers[2] = 3;
@@ -170,6 +170,42 @@ namespace Demo4
             //}
             //Console.WriteLine(Numbers.Length);
             //Console.WriteLine(Numbers.Rank);
+            #endregion
+            #region 2D Array
+            //int[,] Marks = new int[3, 5];
+
+            //Console.WriteLine(Marks.Length);
+            //Console.WriteLine(Marks.Rank);
+            //Console.WriteLine(Marks.GetLength(0));// Number of rows 
+            //Console.WriteLine(Marks.GetLength(1));// Number of coulmns
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    bool Flag;
+            //    Console.WriteLine($"Enter grades of student {(i+1)}");
+            //    for (int j = 0; j < Marks.GetLength(1); /*j++*/)
+            //    {
+            //        Console.WriteLine($"enter grades of subject {(j+1)}");
+            //        //Marks[i,j] = int.Parse(Console.ReadLine());
+            //        Flag = int.TryParse(Console.ReadLine(),out Marks[i,j]);//protictive code
+            //        if ( Flag && Marks[i,j] >= 0)
+            //        {
+            //            ++j;
+            //        }
+
+            //    }
+            //}
+
+            //for (int i = 0; i < Marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($" grades of student {(i + 1)}");
+            //    for (int j = 0; j < Marks.GetLength(1); j++)
+            //    {
+            //        Console.Write($"enter grades of subject {(j + 1)} :");
+            //        Console.WriteLine(Marks[i,j]);
+            //    }
+            //}
+
 
             #endregion
 

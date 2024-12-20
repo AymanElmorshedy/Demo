@@ -299,24 +299,44 @@ namespace Demo4
             //}
             #endregion
             #region Q7
-            //7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
-            Console.WriteLine("please enter a number");
-            int Number = int.Parse(Console.ReadLine());
-            string BinaryNumber = "";
-            if (Number == 0)
+            ////7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            //Console.WriteLine("please enter a number");
+            //int Number = int.Parse(Console.ReadLine());
+            //string BinaryNumber = "";
+            //if (Number == 0)
+            //{
+            //    BinaryNumber="0";
+            //}
+            //else 
+            //{
+            //    while (Number>0)
+            //    {
+            //        int Remainder= Number % 2;
+            //        BinaryNumber= Remainder + BinaryNumber ;
+            //        Number /= 2;
+            //    }
+            //}
+            //Console.WriteLine(BinaryNumber);
+            #endregion
+            #region Q8
+            Console.WriteLine("plese enter degree of marks");
+            int n = int.Parse(Console.ReadLine());
+            for (int i = 0; i < n; i++)
             {
-                BinaryNumber="0";
-            }
-            else 
-            {
-                while (Number>0)
+                for (int j = 0; j < n; j++)
                 {
-                    int Remainder= Number % 2;
-                    BinaryNumber= Remainder + BinaryNumber ;
-                    Number /= 2;
+                    if (i == j)
+                    {
+                        Console.Write("1");
+                    }
+                    else
+                    {
+                        Console.Write("0");
+                    }
+                   
                 }
+                Console.WriteLine();
             }
-            Console.WriteLine(BinaryNumber);
             #endregion
             #endregion
         }

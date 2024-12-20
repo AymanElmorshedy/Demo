@@ -415,19 +415,44 @@ namespace Demo4
             //}
             #endregion
             #region Q15
+            //int[] Numbers = new int[4] { 1, 2, 3, 4 };
+            //int Max=0, Min=int.MaxValue;
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+
+            //        if (Numbers[i] > Max)
+            //            Max= Numbers[i];
+            //         if (Numbers[i] < Min ) 
+            //            Min= Numbers[i];
+
+            //}
+            //Console.WriteLine($"Max element is {Max} and Min is {Min}");
+            #endregion
             int[] Numbers = new int[4] { 1, 2, 3, 4 };
-            int Max=0, Min=int.MaxValue;
+            int Max = 0, Min = int.MaxValue,MinInd=0,MaxInd=0;
             for (int i = 0; i < Numbers.Length; i++)
             {
-                
-                    if (Numbers[i] > Max)
-                        Max= Numbers[i];
-                     if (Numbers[i] < Min ) 
-                        Min= Numbers[i];
-                
+
+                if (Numbers[i] > Max)
+                {
+                    Max = Numbers[i];
+                    MaxInd = i;
+                }
+
+                if (Numbers[i] < Min)
+                {
+                    Min = Numbers[i];
+                    MinInd = i;
+                }
             }
-            Console.WriteLine($"Max element is {Max} and Min is {Min}");
-            #endregion
+            Numbers[MaxInd] = Numbers[MinInd] ;
+            Max = Numbers[MaxInd] ;
+            for (int i = 0; i < Numbers.Length; i++)
+            {
+                if(Numbers[i] > Max)
+                     Max = Numbers[i];
+            }
+            Console.WriteLine($"Max element is {Max}");
 
             #endregion
         }

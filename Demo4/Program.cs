@@ -213,15 +213,30 @@ namespace Demo4
             //}
             #endregion
             #region judge Array
-            int[][] Numbers = new int[3][];
-            Numbers[0]= new int[3]  { 1, 2 , 3};
-            Numbers[1]= new int[2] {4 ,5};
-            Numbers[2]= new int[1] { 6};
-            for (int i =0; i < Numbers.Length; i++)
+            //int[][] Numbers = new int[3][];
+            //Numbers[0]= new int[3]  { 1, 2 , 3};
+            //Numbers[1]= new int[2] {4 ,5};
+            //Numbers[2]= new int[1] { 6};
+            //for (int i =0; i < Numbers.Length; i++)
+            //{
+            //    for (int j = 0; j < Numbers[i].Length; j++)
+            //    {
+            //        Console.WriteLine(Numbers[i] [j]);
+            //    }
+            //}
+            #endregion
+            #endregion
+            #region Assignment4
+            #region Q1
+            //1- Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
+            bool Flag;
+            Console.WriteLine("please enter a integer number ");
+             Flag = int.TryParse(Console.ReadLine(), out var Number);
+            if (Flag && Number>0) 
             {
-                for (int j = 0; j < Numbers[i].Length; j++)
+                for (int i = 1; i <= Number; i++)
                 {
-                    Console.WriteLine(Numbers[i] [j]);
+                    Console.WriteLine(i);
                 }
             }
             #endregion

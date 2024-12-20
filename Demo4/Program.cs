@@ -244,16 +244,25 @@ namespace Demo4
             #region Q2
             //2 - Write a program that allows the user to insert an integer then
             //print a multiplication table up to 12.
-            
-            Console.WriteLine("please enter an intger number");
+
+            //Console.WriteLine("please enter an intger number");
+            //int.TryParse(Console.ReadLine(), out int Number);
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    Console.WriteLine($"{i} * {Number} = {i*Number}");
+            //}
+            #endregion
+            #region Q3
+            //3- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+            Console.WriteLine("please enter a number");
             int.TryParse(Console.ReadLine(), out int Number);
-            for (int i = 1; i <= 12; i++)
+            for (int i = 1; i < Number; i++)
             {
-                Console.WriteLine($"{i} * {Number} = {i*Number}");
+                if (i%2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
-
-
-
             #endregion
             #endregion
         }

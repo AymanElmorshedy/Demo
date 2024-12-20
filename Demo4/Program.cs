@@ -279,13 +279,44 @@ namespace Demo4
             #endregion
             #region Q5
             //5- Write a program to allow the user to enter a string and print the REVERSE of it.
-            Console.WriteLine("please enter string");
-            string tex = Console.ReadLine();
-            for (int i = 0; i < tex.Length; i++)
+            //Console.WriteLine("please enter string");
+            //string tex = Console.ReadLine();
+            //for (int i = 0; i < tex.Length; i++)
+            //{
+            //    Console.Write(tex[tex.Length-1-i]);
+            //}
+
+            #endregion
+            #region Q6
+            //Console.WriteLine("please enter a start");
+            //int Start = int .Parse(Console.ReadLine());
+            //Console.WriteLine("please enter a end ");
+            //int End = int .Parse(Console.ReadLine());
+            //for (int i = Start; i <= End; ++i)
+            //{
+
+            //    Console.WriteLine($"{i}");
+            //}
+            #endregion
+            #region Q7
+            //7- . Write a program in C# Sharp to convert a decimal number into binary without using an array.
+            Console.WriteLine("please enter a number");
+            int Number = int.Parse(Console.ReadLine());
+            string BinaryNumber = "";
+            if (Number == 0)
             {
-                Console.Write(tex[tex.Length-1-i]);
+                BinaryNumber="0";
             }
-      
+            else 
+            {
+                while (Number>0)
+                {
+                    int Remainder= Number % 2;
+                    BinaryNumber= Remainder + BinaryNumber ;
+                    Number /= 2;
+                }
+            }
+            Console.WriteLine(BinaryNumber);
             #endregion
             #endregion
         }

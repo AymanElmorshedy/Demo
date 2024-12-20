@@ -399,21 +399,34 @@ namespace Demo4
 
             #endregion
             #region Q14
-            int[] Numbers = new int[7] { 1, 2, 3, 2, 5,4,5 };
-            int counter=0;
+            //int[] Numbers = new int[7] { 1, 2, 3, 2, 5,4,5 };
+            //int counter=0;
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    for (int j = 0; j < Numbers.Length; j++)
+            //    {
+            //        if (Numbers[i] == Numbers[j]) 
+            //        { 
+            //            counter++; 
+            //        }
+            //    }
+            //    Console.WriteLine($"{Numbers[i]} is repated {counter} times");
+            //    counter = 0;
+            //}
+            #endregion
+            #region Q15
+            int[] Numbers = new int[4] { 1, 2, 3, 4 };
+            int Max=0, Min=int.MaxValue;
             for (int i = 0; i < Numbers.Length; i++)
             {
-                for (int j = 0; j < Numbers.Length; j++)
-                {
-                    if (Numbers[i] == Numbers[j]) 
-                    { 
-                        counter++; 
-                    }
-                }
-                Console.WriteLine($"{Numbers[i]} is repated {counter} times");
-                counter = 0;
+                
+                    if (Numbers[i] > Max)
+                        Max= Numbers[i];
+                     if (Numbers[i] < Min ) 
+                        Min= Numbers[i];
+                
             }
-
+            Console.WriteLine($"Max element is {Max} and Min is {Min}");
             #endregion
 
             #endregion

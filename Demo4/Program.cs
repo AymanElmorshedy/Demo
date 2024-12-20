@@ -362,24 +362,38 @@ namespace Demo4
             //Console.WriteLine(FullSt);
             #endregion
             #region Q11
-            Console.WriteLine("plese enter degree of marks");
-            int n = int.Parse(Console.ReadLine());
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    if (i == j)
-                    {
-                        Console.Write("1");
-                    }
-                    else
-                    {
-                        Console.Write("0");
-                    }
+            //Console.WriteLine("plese enter degree of marks");
+            //int n = int.Parse(Console.ReadLine());
+            //for (int i = 0; i < n; i++)
+            //{
+            //    for (int j = 0; j < n; j++)
+            //    {
+            //        if (i == j)
+            //        {
+            //            Console.Write("1");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("0");
+            //        }
 
-                }
-                Console.WriteLine();
+            //    }
+            //    Console.WriteLine();
+            //}
+            #endregion
+            #region Q12
+            Console.WriteLine("Please enter the size of array");
+            int size = int.Parse(Console.ReadLine()), sum=0;
+            int[] Numbers = new int[size];
+            
+            for (int i = 0; i < size; i++)
+            {
+                Console.WriteLine($"please ener array element no {i}");
+                Numbers[i] = int.Parse(Console.ReadLine());
+                sum += Numbers[i];
+                
             }
+            Console.WriteLine($"Sum of elements of array is {sum}");
             #endregion
 
             #endregion

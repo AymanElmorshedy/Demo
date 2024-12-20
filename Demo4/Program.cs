@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.ComponentModel;
+using System.Text;
 
 namespace Demo4
 {
@@ -229,16 +230,30 @@ namespace Demo4
             #region Assignment4
             #region Q1
             //1- Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
-            bool Flag;
-            Console.WriteLine("please enter a integer number ");
-             Flag = int.TryParse(Console.ReadLine(), out var Number);
-            if (Flag && Number>0) 
+            //bool Flag;
+            //Console.WriteLine("please enter a integer number ");
+            // Flag = int.TryParse(Console.ReadLine(), out var Number);
+            //if (Flag && Number>0) 
+            //{
+            //    for (int i = 1; i <= Number; i++)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            #endregion
+            #region Q2
+            //2 - Write a program that allows the user to insert an integer then
+            //print a multiplication table up to 12.
+            
+            Console.WriteLine("please enter an intger number");
+            int.TryParse(Console.ReadLine(), out int Number);
+            for (int i = 1; i <= 12; i++)
             {
-                for (int i = 1; i <= Number; i++)
-                {
-                    Console.WriteLine(i);
-                }
+                Console.WriteLine($"{i} * {Number} = {i*Number}");
             }
+
+
+
             #endregion
             #endregion
         }

@@ -428,31 +428,37 @@ namespace Demo4
             //}
             //Console.WriteLine($"Max element is {Max} and Min is {Min}");
             #endregion
-            int[] Numbers = new int[4] { 1, 2, 3, 4 };
-            int Max = 0, Min = int.MaxValue,MinInd=0,MaxInd=0;
+            #region Q16
+            //int[] Numbers = new int[4] { 1, 2, 3, 4 };
+            //int Max = 0, Min = int.MaxValue,MinInd=0,MaxInd=0;
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    if (Numbers[i] > Max)
+            //    {
+            //        Max = Numbers[i];
+            //        MaxInd = i;
+            //    }
+            //    if (Numbers[i] < Min)
+            //    {
+            //        Min = Numbers[i];
+            //        MinInd = i;
+            //    }
+            //}
+            //Numbers[MaxInd] = Numbers[MinInd] ;
+            //Max = Numbers[MaxInd] ;
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    if(Numbers[i] > Max)
+            //         Max = Numbers[i];
+            //}
+            //Console.WriteLine($"Max element is {Max}");
+            #endregion
+            #region Q19
+            int[] Numbers = { 1, 2, 4, 5, 6, 7 };
             for (int i = 0; i < Numbers.Length; i++)
-            {
+                Console.Write($"{Numbers[Numbers.Length - 1 - i]} ,");
 
-                if (Numbers[i] > Max)
-                {
-                    Max = Numbers[i];
-                    MaxInd = i;
-                }
-
-                if (Numbers[i] < Min)
-                {
-                    Min = Numbers[i];
-                    MinInd = i;
-                }
-            }
-            Numbers[MaxInd] = Numbers[MinInd] ;
-            Max = Numbers[MaxInd] ;
-            for (int i = 0; i < Numbers.Length; i++)
-            {
-                if(Numbers[i] > Max)
-                     Max = Numbers[i];
-            }
-            Console.WriteLine($"Max element is {Max}");
+            #endregion
 
             #endregion
         }
